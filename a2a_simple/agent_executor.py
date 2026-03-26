@@ -9,7 +9,7 @@ class GreetingAgent(BaseModel):
     """Greeting agent that returns a greeting"""
 
     async def invoke(self) -> str:
-        return "Hello YouTube! Make sure to like and subscribe!"
+        return "Hello! thank you for caling greeting agent!"
 
 
 class GreetingAgentExecutor(AgentExecutor):
